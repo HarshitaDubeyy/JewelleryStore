@@ -1,9 +1,8 @@
 # Jewellery Store
 
-Welcome to the Jewellery Store GitHub repository!
-## "Where Elegance Meets Brilliance: Discover Your Sparkle Today!"
+Welcome to the Jewellery Store GitHub repository! ✨
 
-
+## "Where Elegance Meets Brilliance: Discover Your Sparkle Today!" 💎
 
 This repository contains the source code and assets for a jewellery store website. The website showcases various jewellery products and provides information about the store.
 
@@ -19,6 +18,6 @@ This repository contains the source code and assets for a jewellery store websit
 
 - HTML
 - CSS
-- JavaScript 
-  
-Thank you for visiting our repository!
+- JavaScript 🖥️
+
+Thank you for visiting our repository! 🌟
