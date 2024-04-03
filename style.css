@@ -1339,3 +1339,42 @@ body, h1, h2, p, ul, li {
     margin-top: 10px;
     font-style: italic;
 }
+/* Add this CSS to your existing style.css file or create a new one */
+
+/* Mobile First Approach */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    /* Hide the desktop menu */
+    .menu {
+        display: none;
+    }
+
+    /* Display the mobile menu */
+    .menu-mobile {
+        display: block;
+    }
+
+    /* Adjust the logo size */
+    .logo img {
+        width: 100px; /* Adjust the width as needed */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Adjustments for other elements as needed */
+}
+
+/* Adjustments for larger screens */
+@media only screen and (min-width: 769px) {
+    /* Display the desktop menu */
+    .menu {
+        display: block;
+    }
+
+    /* Hide the mobile menu */
+    .menu-mobile {
+        display: none;
+    }
+
+    /* Adjustments for other elements as needed */
+}
