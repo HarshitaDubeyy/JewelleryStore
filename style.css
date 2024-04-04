@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(15, 15, 15, 0.863);
     position: absolute;
     left: 0;
     right: 0;
@@ -91,21 +91,21 @@ section .container {
 }
 
 #home .container .content h1 {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 10px;
     margin-top: 200px;
     margin-bottom: 40px;
-    color: #302725;
+    color: #e7df6a;
 }
 
 #home .container .content p {
-    font-size: 1.3rem;
-    color: #737373;
+    font-size: 1.5rem;
+    color: #f0eae3;
     margin-bottom: 120px;
     margin-top: 40px;
-    font-family: 'Belleza', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #home .container .content span {
@@ -122,7 +122,7 @@ section .container {
 #home .container .content .button button {
     padding: 10px 20px;
     border: none;
-    background: #B48C56;
+    background: #e4d65d;
     color: #f0f8ff;
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
@@ -157,7 +157,7 @@ section .container {
     color: #e4dfd9;
 }
 
-.call h3 {
+.call p {
     color: rgb(237, 244, 245);
 }
 
@@ -201,7 +201,7 @@ section .container {
 
 #branch .container .content .box {
     width: 25%;
-    height: 60vh;
+    height: 50vh;
     background: rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -269,80 +269,6 @@ section .container {
 
 /*      about       */
 
-#about .container {
-    background: url(image/bg2.png) no-repeat;
-    background-size: 100% 100%;
-}
-
-#about .container .title {
-    width: 70%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 100px;
-}
-
-#about .container .title .line {
-    width: 150px;
-    height: 2px;
-    background: #B48C56;
-}
-
-#about .container .title h1 {
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2rem;
-    font-weight: 200;
-    letter-spacing: 15px;
-}
-
-#about .container .title .call {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    top: 100px;
-    left: 200px;
-}
-
-#about .container .title .call h2 {
-    text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 200;
-    letter-spacing: 10px;
-    font-size: 2.5rem;
-    margin-bottom: 80px;
-}
-
-#about .container .title .call p {
-    font-family: 'Belleza', sans-serif;
-    font-size: 1.3rem;
-    letter-spacing: 1px;
-}
-
-#about .container .title .call button {
-    margin-top: 50px;
-    padding: 10px 20px;
-    border: none;
-    background: #302725;
-    color: #fff;
-    font-family: 'Belleza', sans-serif;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: 0.2s ease;
-}
-
-#about .container .title .call button:hover {
-    transform: scale(1);
-    border: 2px solid #302725;
-    background: none;
-    color: #302725;
-    font-weight: 600;
-}
 
 /*      products       */
 
@@ -443,59 +369,7 @@ section .container {
 
 /*      team       */
 
-#team .container {
-    background: url(image/bg4.png) no-repeat;
-    background-size: 100% 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 0 50px;
-}
 
-#team .container .content {
-    width: 40%;
-    height: 40vh;
-}
-
-#team .container .content p {
-    font-family: 'Belleza', sans-serif;
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-#team .container .content h2 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 300;
-    letter-spacing: 5px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-#team .container .content .cards {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#team .container .content .image img {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
-
-#team .container .content .title h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 300;
-    letter-spacing: 5px;
-}
-
-#team .container .content .title p {
-    font-family: 'Belleza', sans-serif;
-    margin-top: 10px;
-}
 
 /*      news       */
 
@@ -1339,42 +1213,4 @@ body, h1, h2, p, ul, li {
     margin-top: 10px;
     font-style: italic;
 }
-/* Add this CSS to your existing style.css file or create a new one */
 
-/* Mobile First Approach */
-@media only screen and (max-width: 768px) {
-    /* Adjustments for smaller screens */
-
-    /* Hide the desktop menu */
-    .menu {
-        display: none;
-    }
-
-    /* Display the mobile menu */
-    .menu-mobile {
-        display: block;
-    }
-
-    /* Adjust the logo size */
-    .logo img {
-        width: 100px; /* Adjust the width as needed */
-        height: auto; /* Maintain aspect ratio */
-    }
-
-    /* Adjustments for other elements as needed */
-}
-
-/* Adjustments for larger screens */
-@media only screen and (min-width: 769px) {
-    /* Display the desktop menu */
-    .menu {
-        display: block;
-    }
-
-    /* Hide the mobile menu */
-    .menu-mobile {
-        display: none;
-    }
-
-    /* Adjustments for other elements as needed */
-}
