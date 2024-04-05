@@ -98,9 +98,11 @@ section .container {
     font-size: 2.5rem;
     font-weight: 600;
     letter-spacing: 10px;
-    margin-top: 200px;
+    margin-top: 200px; /* You may adjust this margin */
     margin-bottom: 40px;
     color: #e7df6a;
+    position: relative; /* Add position relative */
+    z-index: 1; /* Ensure the title is above the header */
 }
 
 #home .container .content p {
@@ -109,6 +111,8 @@ section .container {
     margin-bottom: 120px;
     margin-top: 40px;
     font-family: 'Poppins', sans-serif;
+    position: relative; /* Add position relative */
+    z-index: 1; /* Ensure the paragraph is above the header */
 }
 
 #home .container .content span {
@@ -610,6 +614,8 @@ section .container {
 }
 
 /*      responsive       */
+
+
 
 @media screen and (max-width: 1440px) {
     header .menu ul li {
