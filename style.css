@@ -655,44 +655,31 @@ section .container {
         display: none;
     }
 
+    header .btn {
+        display: block;
+    }
+
     header .menu-mobile {
-        width: 250px;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
-        position: fixed;
-        top: 0;
-        right: 0;
+        width: 100%;
+        padding: 20px;
     }
 
     header .menu-mobile ul {
-        display: block;
-        padding: 70px;
+        padding: 20px 0;
     }
 
     header .menu-mobile ul li {
-        list-style: none;
-        padding: 40px 0;
+        padding: 20px 0;
         text-align: center;
-
     }
 
     header .menu-mobile ul li a {
-        text-decoration: none;
-        font-size: 1.3rem;
-        font-family: 'Belleza', sans-serif;
-        color: #B48C56;
-        transition: all 0.3s;
+        font-size: 1.2rem;
     }
 
     header .menu-mobile ul li a:hover {
         color: #F2D2A3;
         text-decoration: underline;
-    }
-
-    header .btn {
-        display: block;
-        position: fixed;
-        right: 40px;
     }
 
     header .btn ion-icon {
@@ -701,249 +688,216 @@ section .container {
         cursor: pointer;
     }
 
-    /*      home       */
-
-    #home .container {
-        background-size: 105% 100%;
-    }
-
+    /* Adjustments for home */
     #home .container .content {
-        width: 70%;
+        width: 90%;
+        padding: 0 20px;
     }
 
     #home .container .content h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-top: 100px;
+        margin-bottom: 20px;
     }
 
     #home .container .content p {
-        font-size: 1.1rem;
+        font-size: 1rem;
+        margin-bottom: 80px;
+        margin-top: 20px;
     }
 
     #home .container .content span {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #home .container .content .button {
-        padding-top: 70px;
+        padding-top: 50px;
     }
 
     #home .container .content .button button {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
-    /*      branch       */
-
+    /* Adjustments for branch */
     #branch .container .content .box {
-        width: 28%;
+        width: 90%;
+        height: 35vh;
+        margin-top: 20px;
+    }
+
+    #branch .container .box h3 {
+        margin-bottom: 10px;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    #branch .container .box img {
+        width: 70px;
+        margin-bottom: -15px;
+    }
+
+    #branch .container .box h1 {
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+
+    #branch .container .box p {
+        margin-top: 10px;
+        font-size: 0.9rem;
     }
 
     #branch .container .box button {
-        padding: 8px 18px;
-        margin-top: 15px;
+        margin-top: 10px;
+        padding: 8px 15px;
+        font-size: 0.8rem;
     }
 
-    /*      about       */
+    /* Adjustments for about */
+    #about .container {
+        height: auto;
+    }
 
     #about .container .title h1 {
         font-size: 1.5rem;
     }
 
-    #about .container .title {
-        width: 80%;
-        padding-top: 60px;
-    }
-
-    #about .container .title .call {
-        width: 60%;
-        top: 60px;
-        left: 90px;
-    }
-
     #about .container .title .call h2 {
-        font-size: 2rem;
-        margin-bottom: 40px;
+        margin-top: -20px;
+        font-size: 1.2rem;
     }
 
     #about .container .title .call p {
-        font-size: 1.2rem;
-    }
-
-    /*      about       */
-
-    #products .container .card {
-        width: 80%;
-    }
-
-    #products .container .card .box {
-        padding: 200px 0;
-    }
-
-    /*      team       */
-
-    #team .container .content .image img {
-        width: 80px;
-        height: 80px;
-    }
-
-    /*      news       */
-
-    #news .container .content .box h3 {
-        font-size: 1.1rem;
-    }
-
-    #news .container .content .box img {
-        width: 100px;
-    }
-
-    #news .container .content .box h1 {
-        font-size: 1.2rem;
-    }
-
-    #news .container .content .box p {
-        font-size: 1.1rem;
-    }
-
-    #news .container .box button {
-        padding: 8px 18px;
-        font-size: 1.1rem;
-    }
-
-    /*      footer       */
-
-    #footer .container .content .left h1 {
-        font-size: 1.6rem;
-    }
-
-    #footer .container .content .left p {
-        font-size: 1.1rem;
-        margin-top: 20px;
-    }
-
-    #footer .container .content .right button {
-        margin-left: 50px;
-    }
-
-    #footer .container .info .box ion-icon {
-        font-size: 1.2rem;
-    }
-
-    #footer .container .copyright p {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    #home .container {
-        background-size: 130% 100%;
-    }
-
-    #branch .container {
-        padding: 5px;
-        height: 100vh;
-    }
-
-    #branch .container .title {
-        padding-top: 0;
-    }
-
-    #branch .container .content {
-        height: 70vh;
-        align-items: center;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
-
-    #branch .container .content .box {
-        width: 40%;
-        height: 35vh;
-    }
-
-    #branch .container .box h3 {
-        margin-bottom: 5px;
-        font-size: 1.1rem;
-        letter-spacing: 1px;
-    }
-
-    #branch .container .box img {
-        width: 80px;
-        margin-bottom: -20px;
-    }
-
-    #branch .container .box h1 {
-        margin-top: 25px;
-        font-size: 1.1rem;
-    }
-
-    #branch .container .box p {
-        margin-top: 10px;
-        font-size: 1.1rem;
-    }
-
-    #branch .container .box button {
-        margin-top: 10px;
-        padding: 10px 10px;
         font-size: 0.9rem;
     }
 
-    #about .container {
-        height: 60vh;
+    #about .container .title .call button {
+        margin-top: 20px;
+        font-size: 0.9rem;
+    }
+
+    /* Adjustments for products */
+    #products .container {
+        height: auto;
+    }
+
+    #products .container .title h1 {
+        font-size: 1.5rem;
+    }
+
+    #products .container .card {
+        width: 100%;
+    }
+
+    #products .container .card .box {
+        padding: 150px 0;
+    }
+
+    /* Adjustments for team */
+    #team .container {
+        height: auto;
     }
 
     #team .container .content .cards {
         flex-direction: column;
     }
 
+    #team .container .content p {
+        font-size: 1rem;
+        margin-top: 30px;
+    }
+
+    /* Adjustments for news */
+    #news .container {
+        height: auto;
+    }
+
     #news .container .content {
-        min-height: 100vh;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
-        margin-top: -60px;
+        height: auto;
+        flex-direction: column;
     }
 
     #news .container .content .box {
-        width: 35%;
-        height: 32vh;
-        margin: 10px;
+        width: 90%;
+        height: 30vh;
+        margin: 10px 0;
     }
 
     #news .container .content .box:hover {
-        height: 40vh;
+        height: 35vh;
     }
 
     #news .container .content .box img {
-        width: 75px;
+        width: 60px;
+    }
+
+    #news .container .content .box h1 {
+        font-size: 1rem;
+    }
+
+    #news .container .content .box p {
+        font-size: 0.9rem;
     }
 
     #news .container .box button {
-        padding: 3px;
+        padding: 5px;
+        font-size: 0.8rem;
     }
 
+    /* Adjustments for footer */
     #footer .container {
-        height: 100vh;
+        height: auto;
     }
 
     #footer .container .content {
         flex-direction: column;
     }
 
-    #footer .container .content .left {
-        width: 80%;
-        margin-left: 0;
-        margin-top: 30px;
+    #footer .container .content .left h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    #footer .container .content .left p {
+        font-size: 0.9rem;
     }
 
     #footer .container .content .right {
-        width: 80%;
-        height: 10vh;
-    }
-
-    #footer .container .content .right input {
         margin-top: 20px;
     }
 
-    #footer .container .content .right button {
-        padding: 10px 35px;
+    #footer .container .content .right h1 {
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    #footer .container .content .right p {
+        font-size: 0.9rem;
+    }
+
+    #footer .container .content .right .socials ion-icon {
+        font-size: 1.5rem;
+    }
+
+    #footer .container .content .right .socials ion-icon:hover {
+        color: #ddb06e;
+    }
+
+    #footer .container .content .bottom p {
+        font-size: 0.8rem;
+        margin-top: 20px;
+    }
+
+    /* Adjustments for Gallery */
+    #gallery .container .content .box {
+        width: 100%;
+        height: 50vh;
+        margin-bottom: 20px;
+    }
+
+    #gallery .container .content .box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
