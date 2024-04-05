@@ -269,6 +269,10 @@ section .container {
 
 /*      products       */
 
+#product .container{
+
+    margin-top: 400px;
+}
 
 #products .container .title {
     display: flex;
@@ -790,21 +794,15 @@ section .container {
         font-size: 1.2rem;
     }
 
-    /*      about       */
 
     #products .container .card {
         width: 80%;
+        margin-top: 50px;
     }
 
     #products .container .card .box {
         padding: 200px 0;
-    }
-
-    /*      team       */
-
-    #team .container .content .image img {
-        width: 80px;
-        height: 80px;
+        margin-top: 50px;
     }
 
     /*      news       */
@@ -981,10 +979,12 @@ section .container {
         background: url(image/res2.png) no-repeat;
         background-size: contain;
         height: 60vh;
+        margin-top: 50px;
     }
 
     #products .container .card .box {
         background: rgba(236, 236, 236, 0.5);
+        margin-top: 50px;
     }
 
 
