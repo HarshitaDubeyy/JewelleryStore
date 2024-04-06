@@ -269,9 +269,9 @@ section .container {
 
 /*      products       */
 
-#product .container{
-
-    margin-top: 400px;
+#products .container {
+    background: url(image/bg3.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 #products .container .title {
@@ -1173,7 +1173,7 @@ section .container {
 
 @media screen and (max-width: 300px) {
     .gallery-item {
-        width: 40%; /* Adjust the width to fit two items per row */
+        width: 20%; /* Adjust the width to fit two items per row */
     }
 }
 
