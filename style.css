@@ -631,8 +631,8 @@ section .container {
 }
 
 .gallery-item img {
-    max-width: 100%;
-    height: 250px;
+    max-width: 150%;
+    height: 230px;
     border-radius: 5px;
 }
 
