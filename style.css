@@ -19,7 +19,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: rgba(248, 250, 247, 0.863);
+    background: #B48C56;
     position: relative;
     left: 0;
     right: 0;
@@ -90,26 +90,6 @@ section .container {
     padding: 0 60px;
 }
 
-#home .container .content h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.5rem;
-    font-weight: 600;
-    letter-spacing: 10px;
-    margin-top: 200px; /* You may adjust this margin */
-    margin-bottom: 40px;
-    color: #e7df6a;
-   
-}
-
-#home .container .content p {
-    font-size: 1.5rem;
-    color: #f0eae3;
-    margin-bottom: 120px;
-    margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
-  
-}
-
 #home .container .content span {
     font-size: 2.5rem;
     font-family: 'Bebas Neue', cursive;
@@ -118,13 +98,13 @@ section .container {
 }
 
 #home .container .content .button {
-    padding-top: 200px;
+    padding-top: 800px;
 }
 
 #home .container .content .button button {
     padding: 10px 20px;
     border: none;
-    background: #1d0572;
+    background: #B48C56;
     color: #f0f8ff;
     font-family: 'Belleza', sans-serif;
     font-size: 1.2rem;
@@ -632,7 +612,7 @@ section .container {
 
 .gallery-item img {
     max-width: 150%;
-    height: 230px;
+    height: 200px;
     border-radius: 5px;
 }
 
@@ -728,22 +708,6 @@ section .container {
     }
 
     /*      home       */
-
-    #home .container {
-        background-size: 105% 100%;
-    }
-
-    #home .container .content {
-        width: 70%;
-    }
-
-    #home .container .content h1 {
-        font-size: 2rem;
-    }
-
-    #home .container .content p {
-        font-size: 1.1rem;
-    }
 
     #home .container .content span {
         font-size: 2rem;
