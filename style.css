@@ -53,7 +53,7 @@ header .menu ul li a {
     text-decoration: none;
     font-size: 1.3rem;
     font-family: 'Belleza', sans-serif;
-    color: #11085c;
+    color: #030114;
     transition: all 0.3s;
 }
 
@@ -89,6 +89,9 @@ section .container {
     justify-content: flex-start;
     padding: 0 60px;
 }
+#home .container .content .call {
+    display: none; /* Hide the call section on larger screens */
+  }
 
 #home .container .content span {
     font-size: 2.5rem;
@@ -98,8 +101,8 @@ section .container {
 }
 
 #home .container .content .button {
-    padding-top: 800px;
-}
+        display: block; 
+    }
 
 #home .container .content .button button {
     padding: 10px 20px;
@@ -110,10 +113,14 @@ section .container {
     font-size: 1.2rem;
     transition: all 0.5s ease;
     cursor: pointer;
+    display: block; 
+    
 }
 
 #home .container .content .button button:hover {
     transform: scale(1.1);
+    display: block; 
+  
 }
 
 #home .container .content button.btn2 {
@@ -709,12 +716,34 @@ section .container {
 
     /*      home       */
 
+    #home .container {
+        background-size: 105% 100%;
+       
+        }
+    
+
+    #home .container .content {
+        width: 70%;
+        
+    }
+
+    #home .container .content h3 {
+            font-size: 2.2rem;
+            color: #B48C56;
+            margin-bottom: 1px;
+            margin-top: 1px;
+            font-family: 'Belleza', sans-serif;
+    }
+    #home .container .content .call {
+        display: block; /* Display the call section on mobile devices */
+      }
+
     #home .container .content span {
         font-size: 2rem;
     }
 
     #home .container .content .button {
-        padding-top: 70px;
+        padding-top: 10px;
     }
 
     #home .container .content .button button {
